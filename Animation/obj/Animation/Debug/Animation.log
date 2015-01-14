@@ -1,0 +1,27 @@
+﻿Build started 2014-12-15 11:51:29.
+     1>Project "C:\Users\Ädel\Documents\Visual Studio 2013\Projects\Animation\Animation\Animation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../external/sdl2/include /I../external/sdl2image/include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"../obj/Animation/Debug/Animation.Debug.pch" /Fo"../obj/Animation/Debug/" /Fd"../obj/Animation/Debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SpriteManager.cpp
+         SpriteManager.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/Animation.Debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:../external/sdl2/lib/ /LIBPATH:../external/sdl2image/lib/ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../bin/Animation.Debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin/Animation.Debug.lib" /MACHINE:X86 ../obj/Animation/Debug/AnimatedSprite.obj
+         ../obj/Animation/Debug/DrawManager.obj
+         ../obj/Animation/Debug/Engine.obj
+         ../obj/Animation/Debug/Entity.obj
+         ../obj/Animation/Debug/GameState.obj
+         ../obj/Animation/Debug/InputManager.obj
+         ../obj/Animation/Debug/Keyboard.obj
+         ../obj/Animation/Debug/main.obj
+         ../obj/Animation/Debug/Mouse.obj
+         ../obj/Animation/Debug/Sprite.obj
+         ../obj/Animation/Debug/SpriteManager.obj
+         ../obj/Animation/Debug/State.obj
+         ../obj/Animation/Debug/StateManager.obj
+         ../obj/Animation/Debug/stdafx.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Animation.vcxproj -> C:\Users\Ädel\Documents\Visual Studio 2013\Projects\Animation\Animation\../bin/Animation.Debug.exe
+     1>Done Building Project "C:\Users\Ädel\Documents\Visual Studio 2013\Projects\Animation\Animation\Animation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65
